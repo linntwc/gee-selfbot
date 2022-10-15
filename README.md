@@ -8,7 +8,7 @@
 ```
 #1: git clone https://github.com/twcln/js-selfbot-example
 
-#2: Rename example .env to .env and change the infos.
+#2: Rename example env to .env and change the infos.
 
 #3: Run npm i on terminal
 
