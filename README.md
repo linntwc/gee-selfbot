@@ -1,5 +1,12 @@
 # I don't take any responsibility for blocked Discord accounts that used this self-bot.
-### Amazing features: Change your discriminator/avatar by a command. Steal another ppl avatar's, clear your messages in a chat and copy a user messages.
+### Amazing features: 
+<sub>
+✅ Change your discriminator/avatar by a command.
+
+✅ Steal another ppl avatar's, clear your messages in a chat and copy a user messages.
+</sub>
+
+
 
 ## How to start the self-bot:
 ```
