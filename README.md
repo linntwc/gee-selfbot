@@ -13,8 +13,6 @@
 #3: npm i discord.js-selfbot-v13 quick.db dotenv
 
 #4: node index.js
-
-And enjoy getting your Discord account banned.
 ```
 ### Credits: twc#0001 & https://github.com/aiko-chan-ai/discord.js-selfbot-v13 
 ### (i just did this code to test the lib 😨)
