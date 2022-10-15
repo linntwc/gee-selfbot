@@ -95,8 +95,9 @@ self.on('messageCreate', async (message) => {
 
     if(cmdSelf === 'cl') {
       await message.channel.messages.fetch({ limit: parseInt(argsCmd[0]) + 1 }).then(async (a) => {
-        a.forEach(async (b) => {
-        b.delete()
+        const msgF = a.filter(a => a.author.id === self.user.id)
+        msgF.forEach(async (b) => {
+          b.delete()
         })
       })
     } 
