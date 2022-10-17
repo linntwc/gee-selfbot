@@ -5,3 +5,5 @@ Renomeie o arquivo env exemplo para .env, altere todas informações (Token, sen
 Depois use npm i no terminal para instalar todas libs necessárias.
 Após isso ligue o selfbot utilizando node . 
 ```
+
+### Precisa de ajuda? Me chame no Discord: **twc#0001**
