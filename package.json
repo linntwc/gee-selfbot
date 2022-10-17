@@ -1,0 +1,18 @@
+{
+  "name": "gee-selfbot",
+  "version": "1.0.0",
+  "description": "discord-selfbot",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "twc",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.13.0",
+    "better-sqlite3": "^7.6.2",
+    "discord.js-selfbot-v13": "^2.8.2",
+    "dotenv": "^16.0.3",
+    "quick.db": "^9.0.6"
+  }
+}
