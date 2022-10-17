@@ -1,4 +1,4 @@
-# Não sou responsável por contas que levarem ban do Discord pelo uso desse selfbot.
+# ⚠ Não sou responsável por contas que levarem ban do Discord pelo uso desse selfbot.
 
 ```
 Renomeie o arquivo env exemplo para .env, altere todas informações (Token, senha, emoji e prefixo).
