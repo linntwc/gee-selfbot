@@ -2,7 +2,11 @@ module.exports = async (self, message) => {
   let userDb = await self.db.get(`copiando_${message.author.id}`)
 
   if(userDb === 'true') {
-    message.channel.send({ content: `${message.content}`})
+    if(message.attachments.size > 0) {
+      message.channel.send({ files: [{attachment: `${message.attachments.first().url}`}]})
+    } else {
+      message.channel.send({ content: `${message.content}`})
+    }
   }
 
   if(message.author.id !== self.user.id) return;
