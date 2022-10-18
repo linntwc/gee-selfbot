@@ -1,4 +1,4 @@
-# ⚠ Não sou responsável por contas que levarem ban do Discord pelo uso desse selfbot.
+# ⚠ Não sou responsável por contas que levarem ban do [Discord](https://discord.com/terms) pelo uso desse selfbot.
 
 ### 🐱‍👤 Funções:
 ```
