@@ -10,7 +10,6 @@ module.exports = {
       let urlAvatar = fetchUser.avatar.startsWith("a_")? ".gif?size=4096": ".png?size=4096";
       urlAvatar = `https://cdn.discordapp.com/avatars/${userSteal.id}/${fetchUser.avatar}${urlAvatar}`;
 
-
       await self.user.setAvatar(urlAvatar).then(async (a) => {
         await message.edit({ content: `${process.env.EMOJI} Avatar alterado para o avatar de \`${userSteal.tag}\`.`})
         setTimeout(async (a) => {
