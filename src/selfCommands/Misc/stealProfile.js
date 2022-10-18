@@ -1,7 +1,6 @@
 module.exports = {
     name: "stealprofile",
     aliases: ['rperfil'],
-    // Não recomendo utilizar esse comando em pessoas que estejam utilizando gifs no perfil (envia muitas requests pro Discord).
   
     run: async (self, message, argsCmd) => {
       let userSteal = message.mentions.users.first() || self.users.cache.get(argsCmd[0]);
