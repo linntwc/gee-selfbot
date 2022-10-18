@@ -3,7 +3,7 @@
 ### 🐱‍👤 Funções:
 ```
 Gerencie completamente sua conta por comandos (avatar, bio, tag, nick, banner). 
-Roube o avatar de outra pessoa atráves de um comando, também sendo possível copiar completamente o perfil da pessoa.
+Roube o avatar de outra pessoa atráves de um comando, também sendo possível copiar o perfil da pessoa.
 Quer trollar algum amigo? Use o comando para copiar todas mensagens/anexos que ele enviar.
 ```
 
