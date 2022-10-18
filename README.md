@@ -6,4 +6,5 @@ Depois use npm i no terminal para instalar todas libs necessárias.
 Após isso ligue o selfbot utilizando node . 
 ```
 
-### Precisa de ajuda? Me chame no Discord: **twc#0001**
+## Precisa de ajuda? Servidor de suporte: https://discord.gg/y4TbSyPRmH
+### Ou me chame diretamente no Discord: twc#0001.
