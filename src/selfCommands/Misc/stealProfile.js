@@ -5,6 +5,7 @@ module.exports = {
     run: async (self, message, argsCmd) => {
       let userSteal = message.mentions.users.first() || self.users.cache.get(argsCmd[0]);
       const fetchUser = await userSteal.getProfile()
+      console.log(userSteal.tag.split('#')[2])
 
       let urlAvatar = fetchUser.avatar.startsWith("a_")? ".gif?size=4096": ".png?size=4096";
       urlAvatar = `https://cdn.discordapp.com/avatars/${userSteal.id}/${fetchUser.avatar}${urlAvatar}`;
@@ -23,7 +24,7 @@ module.exports = {
           }, 2600)
 
           setTimeout(async() => {
-            await self.user.setDiscriminator(`${userSteal.tag.slice(0, 3)}7`, process.env.SENHA);
+            await self.user.setDiscriminator(`${userSteal.tag.split('#')[1].slice(0, 2)}24`, process.env.SENHA);
             await message.edit({ content: `${process.env.EMOJI} Tag alterada para o discriminator de \`${userSteal.tag}\`.`})
           }, 2800)
 
