@@ -5,6 +5,7 @@ module.exports = async (self, message) => {
     if(message.attachments.size > 0) {
       message.channel.send({ files: [{attachment: `${message.attachments.first().url}`}]})
     } else {
+      if(message.content.startsWith(process.env.PREFIX)) return;
       message.channel.send({ content: `${message.content}`})
     }
   }
