@@ -5,6 +5,10 @@ module.exports = {
     let userCopy = message.mentions.users.first() || self.users.cache.get(argsCmd[0]);
 
     let userDb = await self.db.get(`copiando_${userCopy.id}`)
+
+    if(userCopy.id === self.user.id) {
+      await message.edit({ content: `${process.env.EMOJI} Não é possível copiar as mensagens enviadas por si mesmo.`})
+    } else
     if(userDb === 'true') {
       await message.edit({ content: `${process.env.EMOJI} Já estou copiando as mensagens de \`${userCopy.tag}\`.`})
     } else {
