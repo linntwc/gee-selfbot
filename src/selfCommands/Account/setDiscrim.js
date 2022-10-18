@@ -9,7 +9,7 @@ module.exports = {
         await message.edit({ content: `${process.env.EMOJI} O discriminator da conta não pode possuir mais de 4 caracteres.`})
       } else {
         await self.user.setDiscriminator(discrimSet, process.env.SENHA);
-        await message.edit({ content: `${process.env.EMOJI} O discriminator da conta foi alterado com sucesso para \`#${discrimSet}\`.`})
+        await message.edit({ content: `${process.env.EMOJI} O discriminator da conta foi alterado com sucesso para \`${discrimSet}\`.`})
       }
     }
 }
