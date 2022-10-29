@@ -16,7 +16,7 @@ Após isso ligue o selfbot utilizando node .
 
 ### Suporte: https://discord.gg/y4TbSyPRmH
 # Créditos:
-💻 **twc#0001** (Desenvolvedor do Selfbot)
+💻 **Linn#0002** (Desenvolvedor do Selfbot)
 
 ☢ **tatsu#0004** (Tester & Manager)
 
