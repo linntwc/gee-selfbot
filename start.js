@@ -1,3 +1,3 @@
 require('./src/index.js')
-// Créditos: twc#0001
+// Créditos: Linn#0002
 // https://scrybabx.cc
